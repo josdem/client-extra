@@ -201,30 +201,3 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 */
-package com.all.twitter;
-
-import java.net.URL;
-
-public interface UserProfile {
-	String getName();
-
-	String getScreenName();
-
-	String getDescription();
-
-	String getLocation();
-
-	String getURL();
-
-	int getFollowersCount();
-
-	int getFriendsCount();
-
-	int getTweetsCount();
-
-	long getId();
-
-	URL getImageProfileUrl();
-
-	boolean isFollowing();
-}
